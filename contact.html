@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+</head>
+<body>
+   <!-- Navbar -->
+   <header class="navbar">
+    <h1 class="logo">Zenithaiti</h1>
+    <div class="menu-icon" onclick="toggleMenu()">
+        <ion-icon name="menu-outline"></ion-icon>
+    </div>
+    <ul class="nav-links">
+        <li><a class="active" href="index.html">Accueil</a></li>
+        <li><a class="z" href="explore.html">Explore</a></li>
+        <li><a class="z" href="apropos.html">A Propos</a></li>
+        <li class="ctn"><a href="contact.html">Contact</a></li>
+    </ul>
+</header>
+<!-- body page contact -->
+    <div class="contact-section">
+        <h1 id="M">Contactez le minstere du Tourisme en Haiti  </h1>
+            <div class="container">
+                 <div class="contactInfo">
+                     <div class="box">
+                         <div class="icon"><ion-icon name="location-outline"></ion-icon>
+                             <div class="text">
+                                 <h1>Adress</h1>
+                                 <p>Highway, Port-au-Prince</p>
+                             </div>
+                         </div>
+                     </div>
+      
+                     <div class="box">
+                         <div class="icon"><ion-icon name="call-outline"></ion-icon>
+                             <div class="text">
+                                 <h1>Telephone</h1>
+                                 <p></ion-icon>+509 38 16 0100</p>
+                             </div>
+                         </div>
+                     </div>
+     
+                     <div class="box">
+                         <div class="icon"><ion-icon name="mail-outline"></ion-icon>
+                             <div class="text">
+                                 <h1>Email</h1>
+                                 <p>ministeretouristehaiti.com</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                </div>
+                <div class="contact-form">
+                    <h2>Envoyer un message</h2>
+                 <form>
+                     <div class="F">
+                     <label for="name">Nom :</label>
+                     <input type="text" id="name" name="name" required>
+                     </div>
+     
+                     <div class="F">
+                    <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required>
+                     </div>
+                     
+                     <div class="F">
+                     <label for="message">Message :</label>
+                     <textarea id="message" name="message" rows="4" required></textarea>
+                     </div>
+     
+                     <div class="F">
+                         <button type="button" onclick="submitForm()">Envoyer</button>
+                     </div>
+                     
+                 </form>
+             </div>
+        
+           
+    </div>
+    
+<div id="pied">
+    <div class="m">
+        <h4>Menu </h4>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="apropos.html">À Propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="t">
+        <h4>Informations de Contact </h4>
+        <p>Adresse : Highway, Port-au-Prince</p>
+        <p>Numéro de téléphone : +509 38 16 0100</p>
+        <p>E-mail : <a href="mailto:[Adresse e-mail]">ministeretouristehaiti.com</a></p>
+    </div>
+
+    <div class="newsletter">
+        <h4>Newsletter </h4>
+        <p>Restez informés sur les événements et les nouvelles attractions en vous abonnant à notre newsletter.</p>
+        <form action="[URL formulaire]" method="post">
+            <input type="email" name="email" placeholder="Votre e-mail" required>
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>&copy; 2024 Ministère du Tourisme en Haïti. Tous droits réservés.</p>
+</div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
