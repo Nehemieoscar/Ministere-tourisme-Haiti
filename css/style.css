@@ -220,17 +220,20 @@ color:rgb(138, 25, 43) ;
 
 /* style pour la section gallery d'image  */
 
-.image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+.main {
+    float: left;
+    width: 100%;
+    display: grid;
+    padding: 50px 5%;
+    margin-top: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    overflow: hidden;
 }
 
 .image-item {
     margin: 10px;
-    width: 50%;
-    height: 50%;
+    width: 100%;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
